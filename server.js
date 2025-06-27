@@ -16,7 +16,7 @@ let highScores = [
 // Configure CORS for Express (for the High Score API)
 // IMPORTANT: Update 'origin' with your actual frontend GitHub Pages URL later!
 const corsOptions = {
-    origin: process.env.FRONTEND_URL || '*', // Use env variable or allow all for testing
+    origin: process.env.FRONTEND_URL || 'https://broofnotascammer.github.io/Maingame/', // Use env variable or allow all for testing
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
     optionsSuccessStatus: 204
